@@ -68,7 +68,7 @@ a {
     width: 50%;
 }
 
-button {
+.button-hero {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
@@ -116,4 +116,89 @@ img {
   border: 2px solid royalblue;
   width: 150px;
   height: 150px;
+}
+
+/* quote section */
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+
+.main-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.attr {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* signup section */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    width: 65%;
+    height: 120px;
+    margin: 70px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.signup-left {
+    margin: 40px;
+    color: #E5E7EB;
+}
+
+.main-signup {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.signup-right {
+    margin: 20px;
+}
+
+.signup .button-signup {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+}
+
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 16px 120px;
+}
+
+.footer p {
+    font-size: 24px;
+    color: #F9FAF8;
 }
